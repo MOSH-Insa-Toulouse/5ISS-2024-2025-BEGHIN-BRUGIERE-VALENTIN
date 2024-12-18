@@ -109,25 +109,4 @@ Fast Fourier Transform with the original filter:
 Fast Fourier Transform when increasing the capacitor too much:
 ![Bode Diagram](Images/FFTNUL.png "Bode Diagram of Amplifier Circuit")
 
----
-
-## Formula for Sensor Resistance
-
-The gas sensor's resistance can be derived from the voltage measured by the ADC using the formula:
-
-$R = \frac{V_{\text{ADC}}}{I_{\text{sensor}}}$
-
-Where:  
-- $R$: Resistance of the gas sensor  
-- $V_{\text{ADC}}$: Voltage measured by the ADC (0 to +5V, represented by values from 0 to 1023 in the Arduino).  
-- $I_{\text{sensor}}$: Current through the sensor.
-
-This formula ensures accurate measurements of sensor resistance, even for high resistance and low current values.
-
----
-
-
-## Conclusion
-
-This amplifier circuit ensures accurate measurement and analysis of gas sensor behavior, enabling the Arduino ADC to handle high resistance and low current signals. Through LTSpice simulation and
 
