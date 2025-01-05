@@ -21,3 +21,18 @@ Adding the gas sensor to the application was not so easy. We had trouble underst
 This sensor detects the presence of carbon monoxide by a variation in resistance. First of all, the sensor has to be allowed to heat up in order to obtain values in line with reality, and then to adapt to its environment. The resistance value is recovered via a serial link and processed to obtain a usable level in ppm. We were then able to display on the screen the measurements taken in real time by the sensor.
 ### LEDs
 To implement a visual alert, we decided to use three different coloured LEDs to symbolise our alert levels. The first level, green, means that the level of CO measured by the sensor is not toxic. The second, orange, symbolises that the quantity of gas is high and that exposure for too long can cause headaches. Finally, the red alert level lights up when the level of monoxide is above the safety threshold. Time to leave the room. We found the three thresholds in the literature on the websites of health bodies to reflect reality. The LEDs were switched on via a condition loop when the sensor measurements were retrieved.
+
+## Node-RED Application
+After that, we implemented Node-RED to visualise the data collected by the sensor. The idea was for the sensor readings transmitted via the LoRa antenna and processed by Chirpstack to be retrieved by Node-RED and displayed using its dashboard functionality. Using the MQTT protocol, we subscribed Node-RED to a Chirpstack topic in which it published the sensor measurements. This enabled us to retrieve the data transmitted on the LoRa network. The values were then displayed by creating a simple but powerful interface for viewing the gas sensor data in real time. 
+
+For more information, read the Node-RED report here.
+
+## The electrical circuit
+Here is the complete electrical diagram of our system. It consists of the Arduino UNO shield, the three LEDs, the gas sensor, the OLED screen and an amplifier.
+
+The gas sensor produced has a very high resistance which varies according to the type and presence of gas. Its resistance is of the order of **gigohms**, which implies an extremely low current of the order of **nanoampere (nA)** flowing to the ADC. Using an Arduino with a 10-bit ADC requires the signal leaving the gas sensor to be amplified. We therefore designed an amplification circuit based on an operational amplifier and simulated it using LTSpice. To find out more, read the LT-Spice report here.
+
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/1031f84e-6b73-4b89-9ca7-6b3133a18195" />
+
+
+
