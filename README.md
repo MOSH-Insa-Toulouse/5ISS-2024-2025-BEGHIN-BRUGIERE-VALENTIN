@@ -9,7 +9,7 @@ This Git file and the following document contain the steps required to design ou
 
 ## LoRa Antenna
 As mentioned above, the aim is to send the data measured by the sensor via a LoRa antenna. To do this, we used the open-source LoRaWAN Network Server ChirpStack, on which we created our application and generated its identifier and access key. Via this server, it is possible to connect to the GEI's main LoRa antenna and view the data stream sent to it.
-
+**photo**
 On the programming side, we used the LoRa RN2483. This module has the advantage of communicating via the UART, so it was easy to connect it to the Arduino and have it send and receive data. We then had to reset and configure the RN2483 microchip according to the identifiers created on ChirpStack. Once this was done, we launched the connection tests and were able to check that our antenna was indeed connected to the main antenna via ChirpStack.
 
 ## Components Integration
@@ -25,6 +25,7 @@ To implement a visual alert, we decided to use three different coloured LEDs to 
 ## Node-RED Application
 After that, we implemented Node-RED to visualise the data collected by the sensor. The idea was for the sensor readings transmitted via the LoRa antenna and processed by Chirpstack to be retrieved by Node-RED and displayed using its dashboard functionality. Using the MQTT protocol, we subscribed Node-RED to a Chirpstack topic in which it published the sensor measurements. This enabled us to retrieve the data transmitted on the LoRa network. The values were then displayed by creating a simple but powerful interface for viewing the gas sensor data in real time. 
 
+**photo**
 For more information, read the Node-RED report here.
 
 ## The electrical circuit
@@ -37,4 +38,6 @@ The gas sensor produced has a very high resistance which varies according to the
 <img width="650" alt="Amplifier" src="https://github.com/user-attachments/assets/1031f84e-6b73-4b89-9ca7-6b3133a18195" />
 
 ## PCB Design
+The PCB was designed using KiCad software. Starting with the previous electrical circuit, the components had to be placed on the Arduino UNO shield and then routed. This was a complex process because we had a lot of components that were quite imposing in terms of space, which did not make placement easy. The final aim was, instead of using a breadboard, to have all the components needed for our application on a single board. Here is the final PCB for our project.
+
 
