@@ -43,3 +43,5 @@ The PCB was designed using KiCad software. Starting with the previous electrical
 The next stage of our project is to print the PCB and then solder the components. Finally, we will have to test our application by uploading our code onto the board. 
 
 The overall objective of this module is to carry out the complete implementation of a gas sensor, from its manufacture, through its integration on a PCB, to its use in a concrete IoT application. This course thus gives us the opportunity to put our skills into practice at every stage of the design and development of a project. In particular, it covers the main phases such as hardware design, software design and product integration. 
+
+In terms of energy consumption, we should look at the consumption of each component. If it is too high, we will have to switch to other components that consume less energy.
