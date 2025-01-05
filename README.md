@@ -30,9 +30,11 @@ For more information, read the Node-RED report here.
 ## The electrical circuit
 Here is the complete electrical diagram of our system. It consists of the Arduino UNO shield, the three LEDs, the gas sensor, the OLED screen and an amplifier.
 
-The gas sensor produced has a very high resistance which varies according to the type and presence of gas. Its resistance is of the order of **gigohms**, which implies an extremely low current of the order of **nanoampere (nA)** flowing to the ADC. Using an Arduino with a 10-bit ADC requires the signal leaving the gas sensor to be amplified. We therefore designed an amplification circuit based on an operational amplifier and simulated it using LTSpice. To find out more, read the LT-Spice report here.
+<img width="515" alt="Electrical Circuit" src="https://github.com/user-attachments/assets/7ff3e59e-216d-496f-a7f9-3450a9d5ef4d" />
 
-<img width="650" alt="image" src="https://github.com/user-attachments/assets/1031f84e-6b73-4b89-9ca7-6b3133a18195" />
+The gas sensor produced has a very high resistance which varies according to the type and presence of gas. Its resistance is of the order of gigohms, which implies an extremely low current of the order of nanoampere (nA) flowing to the ADC. Using an Arduino with a 10-bit ADC requires the signal leaving the gas sensor to be amplified. We therefore designed an amplification circuit based on an operational amplifier and simulated it using LTSpice. To find out more, read the LT-Spice report here.
 
+<img width="650" alt="Amplifier" src="https://github.com/user-attachments/assets/1031f84e-6b73-4b89-9ca7-6b3133a18195" />
 
+## PCB Design
 
