@@ -39,6 +39,15 @@ The gas sensor produced has a very high resistance which varies according to the
 ## PCB Design
 The PCB was designed using KiCad software. Starting with the previous electrical circuit, the components had to be placed on the Arduino UNO shield and then routed. This was a complex process because we had a lot of components that were quite imposing in terms of space, which did not make placement easy. The final aim was, instead of using a breadboard, to have all the components needed for our application on a single board. Here is the final PCB for our project.
 
+<img width="336" alt="PCB Design" src="https://github.com/user-attachments/assets/5e0bc044-3ee0-4059-a1eb-6147848fa1eb" />
+
+Below, there is a 3D view of the PCB after conception.
+-- Front view:
+<img width="433" alt="3D view front" src="https://github.com/user-attachments/assets/1d848150-1e5a-4220-8564-61e3a3de5447" />
+
+--Back view:
+<img width="319" alt="3D view back" src="https://github.com/user-attachments/assets/5c2cdd87-7584-44ff-91ec-62e1998671b5" />
+
 ## Conclusion
 The next stage of our project is to print the PCB and then solder the components. Finally, we will have to test our application by uploading our code onto the board. 
 
