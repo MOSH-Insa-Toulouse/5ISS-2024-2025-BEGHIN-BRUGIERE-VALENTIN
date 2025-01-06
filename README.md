@@ -37,7 +37,7 @@ The gas sensor produced has a very high resistance which varies according to the
 <img width="650" alt="Amplifier" src="https://github.com/user-attachments/assets/1031f84e-6b73-4b89-9ca7-6b3133a18195" />
 
 ## PCB Design
-The PCB was designed using KiCad software. Starting with the previous electrical circuit, the components had to be placed on the Arduino UNO shield and then routed. This was a complex process because we had a lot of components that were quite imposing in terms of space, which did not make placement easy. The final aim was, instead of using a breadboard, to have all the components needed for our application on a single board. Here is the final PCB for our project.
+The PCB was designed using KiCad software. Starting with the previous electrical circuit, the components had to be placed on the Arduino UNO shield and then routed. This was a complex process because we had a lot of components that were quite imposing in terms of space, which did not make placement easy. The final aim was, instead of using a breadboard, to have all the components needed for our application on a single board. The OLED screen and the connectors for the LoRa module have been placed on the other side of the shield so that they can be accessed. Here is the final PCB for our project.
 
 <img width="336" alt="PCB Design" src="https://github.com/user-attachments/assets/5e0bc044-3ee0-4059-a1eb-6147848fa1eb" />
 
