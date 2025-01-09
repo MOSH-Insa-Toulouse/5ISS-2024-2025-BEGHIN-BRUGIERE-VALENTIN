@@ -57,6 +57,8 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 
 ## Characteristics
 **mettre les courbes**
+![graphRAIME](https://github.com/user-attachments/assets/d0b9e995-cd65-4b4c-9b9a-9b98e442d4d8)
+
 
 ## Sensor Integration
 ![image](https://github.com/user-attachments/assets/e8d419f5-8612-43e6-b6a7-abd436b9a610)
