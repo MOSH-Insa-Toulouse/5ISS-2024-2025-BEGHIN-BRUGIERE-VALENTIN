@@ -71,4 +71,5 @@ tension can be gathered by the ADC2 label.
 
 ## Dimensions
 The gas sensor uses a 10-Lead TO-5 metal package with the following dimensions:
+
 <img width="482" alt="dim" src="https://github.com/user-attachments/assets/0e52214f-1dcc-48ae-9e91-11d9bf43596e" />
