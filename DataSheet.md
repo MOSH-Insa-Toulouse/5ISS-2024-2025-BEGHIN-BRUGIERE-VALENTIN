@@ -49,7 +49,7 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 |---------------------------|------|----------------|----------------|----------------|
 |                           |      | Min            | Typical        | Max            |
 | Gas sensor resistance     |  GΩ  |       -        |       20       |       -        |
-| Temperature sensor resistance | Ω |       -        |     93.63      |       -        |
+| Temperature sensor resistance | Ω |       84        |     93.63      |       108     |
 | Heater resistance          |  Ω   |       -        |      83.3      |       -        |
 | Gas sensor voltage         |  V   |       -        |       5       |       -        |
 | Temperature sensor voltage |  V   |       0        |       5        |      10        |
