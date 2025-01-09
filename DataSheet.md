@@ -45,3 +45,30 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 | Air quality | % N2/O2 | 80/20 |
 
 ## Electrical characteristics
+|| Unit               |      | Value ||
+|---------|--------------------|------------------------------|----------------|-----------------|
+|                  |  | Min         | Typical     | Max         |
+|Gas sensor resistance |GΩ|- | 20 |-|
+|Temperature sensor resistance |Ω || 93.63| |
+|Heater resistance| Ω | | 83.3 | |
+|Gas sensor voltage| V |- || - |
+|Temperature sensor voltage| V |0| 5 |10|
+|Heater voltage |V |0| 10 |15|
+
+## Characteristics
+**mettre les courbes**
+
+## Sensor Integration
+![image](https://github.com/user-attachments/assets/e8d419f5-8612-43e6-b6a7-abd436b9a610)
+<img width="485" alt="gazsensor" src="https://github.com/user-attachments/assets/5f052fbb-2310-4b57-987b-3d18a5ba74ab" />
+
+Above, there is a typical application of the sensor in an analogic circuit. The gaz sensor is 
+connected in series with a resistors and with a RC filter. This filter aims to attenuate high frequencies. The outcoming tension is amplified 
+by a LTC1050 operational amplifier before being filtered by a low pass filter. The 
+tension from the ADC1 label can be connected to a 5V ADC such as an Arduino’s. 
+The temperature sensor at pin TempB is also used as a resistor in a dividing bridge and the 
+tension can be gathered by the ADC2 label. 
+
+## Dimensions
+The gas sensor uses a 10-Lead TO-5 metal package with the following dimensions:
+<img width="482" alt="dim" src="https://github.com/user-attachments/assets/0e52214f-1dcc-48ae-9e91-11d9bf43596e" />
