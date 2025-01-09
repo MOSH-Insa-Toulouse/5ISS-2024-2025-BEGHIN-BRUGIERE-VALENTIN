@@ -55,9 +55,9 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 |Temperature sensor voltage| V |0| 5 |10|
 |Heater voltage |V |0| 10 |15|
 
-## Heating resistor characteristics
+## Temperature resistor characteristics
 ![graphRAIME](https://github.com/user-attachments/assets/d0b9e995-cd65-4b4c-9b9a-9b98e442d4d8)
-From this graph representing the evolution of the heating resistor, we obtain that the resistance is approximately : 83.3 Ω.
+From this graph representing the evolution of the temperature resistor, we obtain that the resistance is approximately : 93.63 Ω.
 
 ## Sensor Integration
 ![image](https://github.com/user-attachments/assets/e8d419f5-8612-43e6-b6a7-abd436b9a610)
