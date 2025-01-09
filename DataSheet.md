@@ -45,15 +45,16 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 | Air quality | % N2/O2 | 80/20 |
 
 ## Electrical characteristics
-|| Unit               |      | Value ||
-|---------|--------------------|------------------------------|----------------|-----------------|
-|                  |  | Min         | Typical     | Max         |
-|Gas sensor resistance |GΩ|- | 20 |-|
-|Temperature sensor resistance |Ω || 93.63| |
-|Heater resistance| Ω | | 83.3 | |
-|Gas sensor voltage| V |- || - |
-|Temperature sensor voltage| V |0| 5 |10|
-|Heater voltage |V |0| 10 |15|
+|| Unit                     |      | Value          ||
+|---------------------------|------|----------------|----------------|----------------|
+|                           |      | Min            | Typical        | Max            |
+| Gas sensor resistance     |  GΩ  |       -        |       20       |       -        |
+| Temperature sensor resistance | Ω |       -        |     93.63      |       -        |
+| Heater resistance          |  Ω   |       -        |      83.3      |       -        |
+| Gas sensor voltage         |  V   |       -        |       -        |       -        |
+| Temperature sensor voltage |  V   |       0        |       5        |      10        |
+| Heater voltage             |  V   |       0        |      10        |      15        |
+
 
 ## Temperature resistor characteristics
 ![graphRAIME](https://github.com/user-attachments/assets/d0b9e995-cd65-4b4c-9b9a-9b98e442d4d8)
