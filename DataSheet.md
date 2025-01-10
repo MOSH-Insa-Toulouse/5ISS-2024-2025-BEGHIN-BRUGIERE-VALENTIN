@@ -45,20 +45,65 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 | Air quality | % N2/O2 | 80/20 |
 
 ## Electrical characteristics
-|| Unit                     |      | Value          ||
-|---------------------------|------|----------------|----------------|----------------|
-|                           |      | Min            | Typical        | Max            |
-| Gas sensor resistance     |  GΩ  |       -        |       20       |       -        |
-| Temperature sensor resistance | Ω |       84        |     93.63      |       108     |
-| Heater resistance          |  Ω   |       -        |      83.3      |       -        |
-| Gas sensor voltage         |  V   |       -        |       5       |       -        |
-| Temperature sensor voltage |  V   |       0        |       5        |      10        |
-| Heater voltage             |  V   |       0        |      10        |      15        |
 
+<table>
+  <tr>
+    <th rowspan="2"></th>
+    <th rowspan="2">Unit</th>
+    <th colspan="3">Value</th>
+  </tr>
+  <tr>
+    <th>Min</th>
+    <th>Typical</th>
+    <th>Max</th>
+  </tr>
+  <tr>
+    <td>Gas sensor resistance</td>
+    <td>GΩ</td>
+    <td>-</td>
+    <td>20</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Temperature sensor resistance</td>
+    <td>Ω</td>
+    <td>84</td>
+    <td>107.53</td>
+    <td>108</td>
+  </tr>
+  <tr>
+    <td>Heater resistance</td>
+    <td>Ω</td>
+    <td>-</td>
+    <td>83.3</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Gas sensor voltage</td>
+    <td>V</td>
+    <td>-</td>
+    <td>5</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>Temperature sensor voltage</td>
+    <td>V</td>
+    <td>0</td>
+    <td>5</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Heater voltage</td>
+    <td>V</td>
+    <td>0</td>
+    <td>10</td>
+    <td>15</td>
+  </tr>
+</table>
 
 ## Temperature resistor characteristics
-![graphRAIME](https://github.com/user-attachments/assets/d0b9e995-cd65-4b4c-9b9a-9b98e442d4d8)
-From this graph representing the evolution of the temperature resistor, we obtain that the resistance is approximately : 93.63 Ω.
+![grapheALUAIME](https://github.com/user-attachments/assets/1e12dd83-a2c7-419d-a8c9-1ec87ae06c0f)
+From this graph representing the evolution of the temperature resistor, we obtain that the resistance is approximately : 107.53 Ω.
 
 ## Sensor Integration
 ![image](https://github.com/user-attachments/assets/e8d419f5-8612-43e6-b6a7-abd436b9a610)
