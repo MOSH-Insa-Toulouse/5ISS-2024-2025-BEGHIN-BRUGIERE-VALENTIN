@@ -74,9 +74,9 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
   <tr>
     <td>Heater resistance</td>
     <td>Ω</td>
-    <td>-</td>
-    <td>83.3</td>
-    <td>-</td>
+    <td>70</td>
+    <td>96.15</td>
+    <td>98</td>
   </tr>
   <tr>
     <td>Gas sensor voltage</td>
@@ -106,6 +106,9 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 From this graph representing the evolution of the temperature resistor, we obtain that the resistance is approximately : 107.53 Ω.
 
 ## Heating resistor characteristics
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/6c53e46e-c494-4f7a-bf1d-f9abb64f8fb7" />
+
+From this graph representing the evolution of the heater resistor, we obtain that the resistance is approximately : 96.15 Ω.
 
 ## Gas sensor characteristics
 The gas sensor characteristic is determined by measuring the resistance evolution in presence of ethanol. When the resistance drops, the ethanol amount in the environment increases. The gap is proportionnal to the gas concetration. 
