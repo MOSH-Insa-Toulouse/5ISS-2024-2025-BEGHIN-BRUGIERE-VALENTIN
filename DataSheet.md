@@ -2,7 +2,7 @@
 
 *This document presents the datasheet of the gaz sensor based on tungsten trioxide nanoparticles, manufactured at AIME.*
 
-<img width="215" alt="sensor" src="https://github.com/user-attachments/assets/6396d929-52db-4200-82b4-549df42e3d62" /> 
+<img width="400" alt="sensor" src="https://github.com/user-attachments/assets/6396d929-52db-4200-82b4-549df42e3d62" /> 
 
 **Main Features**             
   - Small size
@@ -101,9 +101,15 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
   </tr>
 </table>
 
-## Temperature resistor characteristics
+## Temperature sensor characteristics
 ![grapheALUAIME](https://github.com/user-attachments/assets/1e12dd83-a2c7-419d-a8c9-1ec87ae06c0f)
 From this graph representing the evolution of the temperature resistor, we obtain that the resistance is approximately : 107.53 Ω.
+
+## Heating resistor characteristics
+
+## Gas sensor characteristics
+The gas sensor characteristic is determined by measuring the resistance evolution in presence of ethanol. When the resistance drops, the ethanol amount in the environment increases. The gap is proportionnal to the gas concetration. 
+<img width="700" alt="gaz" src="https://github.com/user-attachments/assets/c0504111-511d-40ca-a4e7-ad0245d2ecaf" />
 
 ## Sensor Integration
 ![image](https://github.com/user-attachments/assets/e8d419f5-8612-43e6-b6a7-abd436b9a610)
