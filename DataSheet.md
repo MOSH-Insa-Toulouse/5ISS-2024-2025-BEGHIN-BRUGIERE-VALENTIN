@@ -7,12 +7,12 @@
 **Main Features**             
   - Small size
   - Low cost                 
-  - Detection of Ethanol (C2H6O)                               
+  - Detection of Ethanol ($C_2H_6O$)                              
   - Short response time
   - Integrated Temperature sensor
 
 ## Sensor Description
-This gas sensor is designed to identify the presence of C2H6O in the atmosphere. It functions as a passive component that detects gas presence through variations in its internal resistance. The incorporation of tungsten trioxide nanoparticles alters the conductivity of the aluminum interdigitated combs based on the gas composition in contact with the sensor. An internal heater allows the sensor to reach temperatures of up to 250°C, enhancing the sensitivity of the nanoparticles and minimizing interference from ambient humidity. Additionally, the sensor features an aluminum resistor to monitor its temperature, enabling improved control and the potential for temperature autoregulation.
+This gas sensor is designed to identify the presence of $C_2H_6O$ in the atmosphere. It functions as a passive component that detects gas presence through variations in its internal resistance. The incorporation of tungsten trioxide nanoparticles alters the conductivity of the aluminum interdigitated combs based on the gas composition in contact with the sensor. An internal heater allows the sensor to reach temperatures of up to 250°C, enhancing the sensitivity of the nanoparticles and minimizing interference from ambient humidity. Additionally, the sensor features an aluminum resistor to monitor its temperature, enabling improved control and the potential for temperature autoregulation.
 
 ## Pin Description
 <img width="195" alt="bottom_view" src="https://github.com/user-attachments/assets/25034f16-8619-4b76-9e8a-21f4df13d979" /> <img width="364" alt="image" src="https://github.com/user-attachments/assets/032c8263-4a0c-4d0a-9ad4-21c66bd3f5f4" />
@@ -20,9 +20,9 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 | Pin Number | Usage |
 |--------|--------|
 |    1/6  |  Temperature sensor (Aluminium resistor)   |
-|    2/4  |    Gas sensor (WO3 nanoparticles integrated on aluminium interdigital combs)    |
+|    2/4  |    Gas sensor ($WO_3$ nanoparticles integrated on aluminium interdigital combs)    |
 |    3/8  |  Heater resistor (Polysilicon resistor)   |
-|    7/9  |  Gas sensor (WO3 nanoparticles integrated on aluminium interdigital combs)    |
+|    7/9  |  Gas sensor ($WO_3$ nanoparticles integrated on aluminium interdigital combs)    |
 |    5/10  |  Not connected   |
 
 ## Specifications
@@ -30,8 +30,8 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 |--------|--------|
 |   Type  | Nanoparticle based sensor |
 |    Sensor  |   Passive (power supply required) |
-|    Materials  | - Silicon<br>- N-doped poly-silicon (heater)<br>- Aluminum (temperature measurement)<br>- Nanoparticles of tungsten trioxide (WO3)    |
-|    Detectable gaz  | Ethanol (C2H6O) |
+|    Materials  | - Silicon<br>- N-doped poly-silicon (heater)<br>- Aluminum (temperature measurement)<br>- Nanoparticles of tungsten trioxide ($WO_3$)    |
+|    Detectable gaz  | Ethanol ($C_2H_6O$) |
 |    Gas measurement   |  Resistance   |
 |    Temperature measurement   |  Resistance   |
 |  Package  | 10-Lead TO-5 metal  |
@@ -42,7 +42,7 @@ This gas sensor is designed to identify the presence of C2H6O in the atmosphere.
 |--------|--------|--------|
 | Temperature | °C | 20±5 |
 | Humidity | % | 60±5 |
-| Air quality | % N2/O2 | 80/20 |
+| Air quality | % $N_2/O_2$ | 80/20 |
 
 ## Electrical characteristics
 
@@ -111,7 +111,7 @@ From this graph representing the evolution of the temperature resistor, we obtai
 From this graph representing the evolution of the heater resistor, we obtain that the resistance is approximately : 96.15 Ω.
 
 ## Gas sensor characteristics
-The gas sensor characteristic is determined by measuring the resistance evolution in presence of ethanol. When the resistance drops, the ethanol amount in the environment increases. The gap is proportionnal to the gas concetration. 
+The gas sensor characteristic is determined by measuring the resistance evolution in presence of ethanol. When the resistance drops, the amount of ethanol in the environment increases. The gap is proportionnal to the gas concetration. 
 <img width="700" alt="gaz" src="https://github.com/user-attachments/assets/c0504111-511d-40ca-a4e7-ad0245d2ecaf" />
 
 ## Sensor Integration
