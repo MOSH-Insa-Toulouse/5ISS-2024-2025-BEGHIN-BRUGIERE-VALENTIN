@@ -25,7 +25,7 @@ We used the `mqtt in` node to subscribe to the topic where Chirpstack published 
 - The correct topic for sensor data.
 - Authentication details where required.
 
-**mettre photo de config mqtt**
+![Sensor Simulation Circuit]("Images/Capture d’écran du 2025-01-15 08-21-25")
 
 ### 2. Parsing the Data
 The raw payload received from the MQTT node was in JSON format. We processed this data as follows:
