@@ -25,21 +25,23 @@ We used the `mqtt in` node to subscribe to the topic where Chirpstack published 
 - The correct topic for sensor data.
 - Authentication details where required.
 
-![Sensor Simulation Circuit]("Images/Capture d’écran du 2025-01-15 08-21-25")
+![Configuration Topic Broker MQTT](Images/ConfigMQTTTopic.png "Configuration Topic Broker MQTT")
+![Configuration Server MQTT](Images/ConfigServer.png "Configuration Server MQTT")
+
 
 ### 2. Parsing the Data
 The raw payload received from the MQTT node was in JSON format. We processed this data as follows:
 - A `JSON` node was used to parse the payload into a structured format for easy handling.
 - Function nodes were added to extract specific details such as gas concentration values and to reformat the data for better compatibility with dashboard widgets.
 
-*Image suggestion*: Include a screenshot of the Node-RED flow showing the MQTT node and JSON parser in action.
+![Node-Red Flow](Images/Flow_Nodered.png "Node-Red Flow")
 
 ### 3. Dashboard Configuration
 For the visualization, we installed and configured the `node-red-dashboard` package:
 - **Gauges** were used to display the current gas concentration levels.
 - **Charts** plotted historical trends of gas readings over time.
 
-*Image suggestion*: Add a screenshot of the Node-RED dashboard showing the gauge and chart widgets in real-time operation.
+![Node-Red Dashboard Vizualisation ](Images/Application.png "Node-Red Dashboard Vizualisation")
 
 ---
 
