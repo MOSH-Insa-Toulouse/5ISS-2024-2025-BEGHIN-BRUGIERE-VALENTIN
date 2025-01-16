@@ -25,6 +25,8 @@ To implement a visual alert, we decided to use three different coloured LEDs to 
 ## Node-RED Application
 After that, we implemented Node-RED to visualise the data collected by the sensor. The idea was for the sensor readings transmitted via the LoRa antenna and processed by Chirpstack to be retrieved by Node-RED and displayed using its dashboard functionality. Using the MQTT protocol, we subscribed Node-RED to a Chirpstack topic in which it published the sensor measurements. This enabled us to retrieve the data transmitted on the LoRa network. The values were then displayed by creating a simple but powerful interface for viewing the gas sensor data in real time. 
 
+![Node-Red Dashboard Vizualisation ](Images/Application.png "Node-Red Dashboard Vizualisation")
+
 For more information, read the Node-RED report [here](Rapport_NodeRed).
 
 ## The electrical circuit
